@@ -53,10 +53,10 @@ BedmarFood/
 ![Captura de Pantalla - Página Principal](./img/screenshots/home.png)
 
 ### Galería de Platos
-![Captura de Pantalla - Galería](./img/screenshots/menu.png)
+![Captura de Pantalla - Galería](./img/screenshots/platos.png)
 
 ### Formulario de Contacto
-![Captura de Pantalla - Contacto](./img/screenshots/contact.png)
+![Captura de Pantalla - Contacto](./img/screenshots/contacto.png)
 
 ## Contribución
 Si deseas contribuir:
