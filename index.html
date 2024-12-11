@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bedmar Food</title>
+    <!-- Vinculamos el CSS de Bootstrap desde el CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Vinculamos nuestro archivo CSS para personalizaciones -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header class="text-white text-center py-5">
+        <h1>Bedmar Food</h1>
+        <p>¡Disfruta de nuestros deliciosos platos y menús!</p>
+    </header>
+
+    <!-- Menú con enlaces a las otras páginas -->
+    <section class="container py-5">
+        <h2 class="text-center mb-4">Menú</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <a href="entrantes.html" class="btn btn-primary btn-lg btn-block">Entrantes</a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="principal.html" class="btn btn-primary btn-lg btn-block">Plato Principal</a>
+            </div>
+            <div class="col-md-4 mb-4">
+                <a href="postres.html" class="btn btn-primary btn-lg btn-block">Postres</a>
+            </div>
+        </div>
+
+    <section class="container py-5">
+        <h2 class="text-center mb-4">Nuestros Platos</h2>
+        <div class="row">
+            <!-- Plato 1 -->
+            <div class="col-md-4 mb-4">
+                <img src="/img/principales/pizza.jpeg" class="img-fluid rounded" alt="Plato 1" style="object-fit: contain; height: 300px;">
+                <h3 class="text-center mt-3">Pizza Margherita</h3>
+                <p class="text-center">Una pizza clásica con mozzarella fresca, tomate y albahaca.</p>
+            </div>
+            <!-- Plato 2 -->
+            <div class="col-md-4 mb-4">
+                <img src="/img/principales/ensalada.jpeg" class="img-fluid rounded" alt="Plato 2" style="object-fit: contain; height: 300px;">
+                <h3 class="text-center mt-3">Ensalada César</h3>
+                <p class="text-center">Ensalada fresca con lechuga, pollo a la parrilla, aderezo césar y queso parmesano.</p>
+            </div>
+            <!-- Plato 3 -->
+            <div class="col-md-4 mb-4">
+                <img src="/img/principales/angus.jpeg" class="img-fluid rounded" alt="Plato 3" style="object-fit: contain; height: 300px;">
+                <h3 class="text-center mt-3">Hamburguesa Clásica</h3>
+                <p class="text-center">Una deliciosa hamburguesa con carne jugosa, queso y vegetales frescos.</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Sección de contacto -->
+    <section class="container py-5">
+        <h2 class="text-center mb-4">Contacto</h2>
+        <form action="#" method="POST">
+            <div class="form-row">
+                <div class="col-md-6 mb-3">
+                    <label for="name">Nombre</label>
+                    <input type="text" class="form-control" id="name" placeholder="Tu nombre" required>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Bedmar Food. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
